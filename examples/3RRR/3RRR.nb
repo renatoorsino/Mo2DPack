@@ -1,0 +1,190 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8132,        181]
+NotebookOptionsPosition[      7627,        158]
+NotebookOutlinePosition[      8011,        175]
+CellTagsIndexPosition[      7968,        172]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"SetDirectory", "[", 
+  "\"\</Users/renatoorsino/PPGEM-USP/Packages/Mo2DPack/examples/3RRR\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"<<", "3RRR.m"}]}], "Input",
+ CellChangeTimes->{{3.610834925645987*^9, 3.610834976644004*^9}, {
+  3.610835012312791*^9, 3.610835015366788*^9}, {3.6132181487993307`*^9, 
+  3.6132181584939327`*^9}, {3.6638063955986233`*^9, 3.6638064042901497`*^9}}],
+
+Cell[BoxData["\<\"/Users/renatoorsino/PPGEM-USP/Packages/Mo2DPack/examples/\
+3RRR\"\>"], "Output",
+ CellChangeTimes->{{3.610834955393775*^9, 3.6108349770372143`*^9}, 
+   3.610835088478634*^9, 3.610835271335112*^9, 3.6108420005437202`*^9, 
+   3.6108426377797728`*^9, 3.610842841403666*^9, 3.6108463902463627`*^9, 
+   3.610883291581635*^9, 3.6108911818076353`*^9, 3.6109781773193083`*^9, 
+   3.610978326670681*^9, 3.6109999270730457`*^9, 3.6110011985655003`*^9, 
+   3.611002825004833*^9, 3.6110173031766443`*^9, 3.611017366231122*^9, 
+   3.611150964193617*^9, 3.611151112968712*^9, 3.611151308946183*^9, 
+   3.611151396967031*^9, 3.6111515015105743`*^9, 3.61115158114535*^9, 
+   3.611151624652088*^9, 3.611172309859125*^9, 3.611180057468173*^9, 
+   3.611180789169471*^9, 3.611181172011438*^9, 3.6111812202423973`*^9, 
+   3.611181346338894*^9, {3.611181388257969*^9, 3.611181404320118*^9}, 
+   3.611181440527749*^9, 3.6111814810747232`*^9, 3.611181733259136*^9, 
+   3.6111822495295353`*^9, 3.6111822977729063`*^9, 3.611182561315271*^9, {
+   3.6111884782367268`*^9, 3.6111884998512993`*^9}, 3.611188542616125*^9, 
+   3.611189240477022*^9, 3.611189341294813*^9, {3.611189371450295*^9, 
+   3.611189384554936*^9}, 3.6111897335399227`*^9, 3.611189791532922*^9, 
+   3.6111898759186363`*^9, 3.61118993890203*^9, 3.611190020446391*^9, 
+   3.611190080216929*^9, 3.6111901512910223`*^9, 3.6132184926108437`*^9, 
+   3.613218570040566*^9, 3.6132186333233223`*^9, 3.6132186672234173`*^9, 
+   3.6132187166780853`*^9, 3.613218771521806*^9, 3.613218804254784*^9, 
+   3.6132188595134907`*^9, 3.61321929089785*^9, 3.61322099352174*^9, 
+   3.6132222760836573`*^9, 3.613342644011219*^9, 3.614185484979784*^9, 
+   3.6141856000476227`*^9, 3.6164080019753838`*^9, 3.616408112631301*^9, 
+   3.616408369841346*^9, 3.636443858731676*^9, 3.637491329204383*^9, 
+   3.6374918095104837`*^9, 3.637607521970973*^9, 3.657471598673873*^9, {
+   3.663806429892828*^9, 3.663806452898188*^9}, 3.664048199804638*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"fig060204I1.png\"\>", ",", "\<\"fig060204I2.png\"\>", 
+   ",", "\<\"fig060204I3.png\"\>", ",", "\<\"fig060204I4.png\"\>", 
+   ",", "\<\"fig060204I5.png\"\>", ",", "\<\"fig060204I6.png\"\>", 
+   ",", "\<\"fig060204I7.png\"\>", ",", "\<\"fig060204I8.png\"\>", 
+   ",", "\<\"fig060204I9.png\"\>", ",", "\<\"fig060204I10.png\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.610834955393775*^9, 3.6108349770372143`*^9}, 
+   3.610835088478634*^9, 3.610835271335112*^9, 3.6108420005437202`*^9, 
+   3.6108426377797728`*^9, 3.610842841403666*^9, 3.6108463902463627`*^9, 
+   3.610883291581635*^9, 3.6108911818076353`*^9, 3.6109781773193083`*^9, 
+   3.610978326670681*^9, 3.6109999270730457`*^9, 3.6110011985655003`*^9, 
+   3.611002825004833*^9, 3.6110173031766443`*^9, 3.611017366231122*^9, 
+   3.611150964193617*^9, 3.611151112968712*^9, 3.611151308946183*^9, 
+   3.611151396967031*^9, 3.6111515015105743`*^9, 3.61115158114535*^9, 
+   3.611151624652088*^9, 3.611172309859125*^9, 3.611180057468173*^9, 
+   3.611180789169471*^9, 3.611181172011438*^9, 3.6111812202423973`*^9, 
+   3.611181346338894*^9, {3.611181388257969*^9, 3.611181404320118*^9}, 
+   3.611181440527749*^9, 3.6111814810747232`*^9, 3.611181733259136*^9, 
+   3.6111822495295353`*^9, 3.6111822977729063`*^9, 3.611182561315271*^9, {
+   3.6111884782367268`*^9, 3.6111884998512993`*^9}, 3.611188542616125*^9, 
+   3.611189240477022*^9, 3.611189341294813*^9, {3.611189371450295*^9, 
+   3.611189384554936*^9}, 3.6111897335399227`*^9, 3.611189791532922*^9, 
+   3.6111898759186363`*^9, 3.61118993890203*^9, 3.611190020446391*^9, 
+   3.611190080216929*^9, 3.6111901512910223`*^9, 3.6132184926108437`*^9, 
+   3.613218570040566*^9, 3.6132186333233223`*^9, 3.6132186672234173`*^9, 
+   3.6132187166780853`*^9, 3.613218771521806*^9, 3.613218804254784*^9, 
+   3.6132188595134907`*^9, 3.61321929089785*^9, 3.61322099352174*^9, 
+   3.6132222760836573`*^9, 3.613342644011219*^9, 3.614185484979784*^9, 
+   3.6141856000476227`*^9, 3.6164080019753838`*^9, 3.616408112631301*^9, 
+   3.616408369841346*^9, 3.636443858731676*^9, 3.637491329204383*^9, 
+   3.6374918095104837`*^9, 3.637607521970973*^9, 3.657471598673873*^9, {
+   3.663806429892828*^9, 3.663806452898188*^9}, 3.664048221453224*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"Black", ",", "Thick", ",", 
+       RowBox[{"AnimationS1", "[", "t", "]"}]}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "4"}], ",", 
+          RowBox[{"+", "6"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "4.5"}], ",", "4.5"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", 
+     SubscriptBox["T", "\"\<SI\>\""]}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 8.332647705078125, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0, 16.}}, Typeset`size$$ = {450., {199., 206.}},
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`t$37465$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t$$, $CellContext`t$37465$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Graphics[{Black, Thick, 
+         $CellContext`AnimationS1[$CellContext`t$$]}, PlotRange -> {{-4, 
+           Plus[6]}, {-4.5, 4.5}}], 
+      "Specifications" :> {{$CellContext`t$$, 0, 16.}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{505., {267., 274.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.663806529034011*^9}]
+}, Open  ]]
+},
+WindowSize->{1280, 752},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 410, 7, 57, "Input"],
+Cell[992, 31, 1974, 27, 36, "Output"],
+Cell[2969, 60, 2269, 33, 57, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5275, 98, 653, 21, 36, "Input"],
+Cell[5931, 121, 1680, 34, 561, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
